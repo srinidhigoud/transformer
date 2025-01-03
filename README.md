@@ -82,6 +82,11 @@ bazel run //path/to:target
 
 Replace `//path/to:target` with the appropriate Bazel target for your use case.
 
+**Example cmd:**
+```bash
+bazel run //optimizations/pruning:run_pruning
+```
+
 ---
 
 ## Contributing
