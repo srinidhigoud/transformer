@@ -1,0 +1,59 @@
+## Base deps
+
+# Machine Learning
+torch~=2.2.2
+numpy<2
+pandas~=2.2.3
+
+# Optional ML Tools
+torchvision
+torchaudio
+pytorch-lightning
+
+# Data Processing
+scipy
+scikit-learn
+
+# Utilities
+tqdm
+typing-extensions
+
+
+## Dev deps
+
+# Testing
+pytest
+pytest-cov
+hypothesis
+
+# Type Checking
+mypy
+
+# Linting
+black
+isort
+flake8
+pylint
+
+# Debugging
+ipython
+jupyter
+
+
+## PYPI requirements
+
+# Profiling
+memory-profiler
+py-spy
+
+# Visualization
+matplotlib
+seaborn
+
+# Additional Utilities
+wandb
+optuna
+
+
+# Constraints for transitive dependencies
+-c constraints.txt

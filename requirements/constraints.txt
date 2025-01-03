@@ -1,0 +1,6 @@
+# requirements/constraints.txt
+
+# Pin transitive dependencies
+# certifi==2023.7.22
+# chardet==4.0.0
+# urllib3==1.26.15

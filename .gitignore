@@ -1,0 +1,80 @@
+# Bazel-generated files and directories
+bazel-*
+bazel-bin
+bazel-out
+bazel-testlogs
+bazel-transformer
+
+# Python virtual environment
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Experiment logs and results
+experiments/logs/
+experiments/results/
+
+# Local development files
+.local/
+.localenv/
+
+# Dependency directories
+.python-version
+.pip-cache/
+
+# macOS-specific files
+.DS_Store
+
+# Bazel-specific files
+.bazel/
+.bazelrc.user
+
+# Backup files
+*.bak
+requirements.in.bak
+requirements_lock.txt.bak
+
+# Bazel lock file (if not needed in version control)
+MODULE.bazel.lock
+
+# Bazel build outputs (if not needed in version control)
+bazel-*
+
+# Bazel symlinks (already covered above, but explicitly listed for clarity)
+bazel-bin
+bazel-out
+bazel-testlogs
+bazel-transformer
+
+# Local configuration files
+local_settings.py
+.env
+.env.local
+
+# Pipenv files
+Pipfile
+Pipfile.lock
+
+# PyCharm files
+.idea/
+*.iml

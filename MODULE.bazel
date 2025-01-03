@@ -1,0 +1,22 @@
+module(
+    name = "transformer",
+    version = "0.1.0",
+)
+
+bazel_dep(name = "rules_python", version = "1.0.0")
+
+# Python toolchain registration
+python = use_extension("@rules_python//python/extensions:python.bzl", "python")
+python.toolchain(
+    python_version = "3.12",  # Updated to Python 3.12
+)
+use_repo(python, "python_3_12")  # Updated to python_3_12
+
+# Pip dependencies
+pip = use_extension("@rules_python//python/extensions:pip.bzl", "pip")
+pip.parse(
+    hub_name = "pip",
+    python_version = "3.12",  # Updated to Python 3.12
+    requirements_lock = "//requirements:requirements_lock.txt",
+)
+use_repo(pip, "pip")
